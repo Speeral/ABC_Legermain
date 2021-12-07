@@ -7,6 +7,7 @@ Tapez `composer install` dans votre terminal pour installer les différents vend
 Ouvrez XAMPP<br>
 Tapez `php bin/console doctrine:migrations:migrate` dans votre terminal afin de récupérer la base de donnée<br>
 Tapez `php bin/console doctrine:fixtures:load`dans votre terminal afin de charger les fixtures. <br>
+Si vous rencontrez des problèmes, essayez la commande suivante `php bin/console doctrine:schema:update`
 ## Utilisation
 Commencez par taper dans votre terminal `symfony serve`<br>
 Pour pouvoir utiliser notre site, rendez-vous <a href="https://127.0.0.1:8000/acceuil/new">ici</a> puis cliquez sur le bouton `Save`<br>
